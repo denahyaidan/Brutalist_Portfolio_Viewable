@@ -1,0 +1,35 @@
+form {
+    margin: 30px;
+}
+
+label{
+    font-size: 30px;
+}
+
+input, textarea {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+
+}
+
+textarea {
+    width: 500px;
+    height:250px
+}
+
+.submit {
+    background-color: orange;
+}
+
+.alt-info{
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    textarea {
+        width: 300px;
+    }
+  }

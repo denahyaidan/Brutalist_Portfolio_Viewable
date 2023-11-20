@@ -1,0 +1,30 @@
+#front-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: orange;
+}
+
+#projects {
+  height: auto;
+  width: 100vw;
+  background-color: white;
+}
+
+.projects-title {
+  margin: 20px 50px;
+}
+
+#software-engineer{
+  font-size: 20px;
+}
+
+#logo-image {
+  width:200px;
+  height: auto;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 30px;
+  }
+}

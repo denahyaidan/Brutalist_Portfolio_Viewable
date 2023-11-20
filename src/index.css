@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: Futura, sans-serif;
+}
+
+.futura {
+  font-family: Futura, sans-serif;
+}
+
+.column-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.row-container{
+  display:flex;
+}
+
+.centered{
+  align-items: center;
+  justify-content: center;
+}

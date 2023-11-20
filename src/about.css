@@ -1,0 +1,36 @@
+#propic {
+    width:300px;
+    height: auto;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#paragraph {
+    height: auto;
+    width: 800px;
+    margin: 30px;
+    font-size: 20px;
+    /* margin: 20px; */
+    /* margin-right:200px; */
+}
+
+  @media (max-width: 1170px) {
+    #paragraph {
+        width: 500px;
+
+    }
+  }
+
+  @media (max-width: 890px) {
+    #lower-about {
+        flex-direction: column;
+
+    }
+  }
+
+  @media (max-width: 550px) {
+    #paragraph {
+      width: 300px;
+
+    }
+  }
